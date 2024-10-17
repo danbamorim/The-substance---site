@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  apache_test:
+    image: httpd:latest
+    container_name: apache_test
+    ports:
+      - "66:80"
+    volumes:
+      - ./index.html:/usr/local/apache2/htdocs/index.html
