@@ -11,11 +11,7 @@ body {
     color: var(--dark);
     text-align: center;
     margin: 0;
-    background-color: rgb(255, 255, 255);
-
-    background-image:
-        radial-gradient(circle at left top, rgba(71, 255, 5, 0.3), transparent 400px),
-        radial-gradient(circle at right center, rgba(29, 255, 13, 0.3), transparent 400px);
+    background-color: rgb(250, 250, 250); 
 }
 
 .content-wrapper-center {
@@ -76,16 +72,16 @@ h2 {
     padding: 1em;
     background-color: var(--primary-color);
     border-radius: 5px;
-    color: var(--light);
+    color:  white;
 }
 
 .btn:hover,
 .btn:focus {
-    background-color: var(--primary-color-dark);
+    background-color: rgb(16, 253, 44);
 }
 
 img {
-    max-width: 100%;
+    max-width: 500%;
 }
 
 .brands {
@@ -101,15 +97,13 @@ img {
 .brands ul {
     list-style-type: none;
     padding: 0;
-    background-color: var(--gray);
-    border-radius: 5px;
-    padding: 1em;
-
+    background-color: black;
+    border-radius: 2px;
     display: flex;
     justify-content: space-around;
     gap: 1rem;
 }
-
+ 
 .hide {
     position: absolute;
     clip: rect(1px, 1px, 1px, 1px);
